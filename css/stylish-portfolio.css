@@ -16,6 +16,13 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
+#title{
+font-family: 'Bad Script', cursive;
+color: #0163A2;
+text-shadow: 0px 11px 11px #0163A2;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -32,7 +39,7 @@ body {
 /* Custom Button Styles */
 
 .btn-dark {
-    border-radius: 0;
+    border-radius: 30px;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
 }
@@ -220,21 +227,7 @@ hr.small {
     margin: 10px;
 }
 
-/* Map */
 
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
 
 /* Footer */
 
