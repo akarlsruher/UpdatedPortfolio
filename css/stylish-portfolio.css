@@ -328,7 +328,7 @@ footer {
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
 .header{
-  background-color: dimgrey;
+  background-image: url('img/cork.png');
 }
 
  }
